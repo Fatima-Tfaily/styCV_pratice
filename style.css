@@ -1,9 +1,51 @@
+h3{
+    color: #1a9a9a;;
+}
+.introduction{
+    color: white;
+    background-color: #2a3a68;
+    height: 230px;
+    font-size: 20;
+}
+.contact{
+    color: white;
+    background-color: #03254c;
+}
 img{
 width: 200px ;
 height: 200px;
 float: right;
 display: flex;
 border-radius:50%;
-border-color:black;
+border-color: #1a9a9a;
+
 border: 2px solid ;
 }
+.contactus{
+    display: flex;
+    list-style-type: none;
+}
+li{ 
+    font-size: 20;
+    padding-right: 65px;
+}
+td{
+    padding-right: 150px;
+}
+u{
+    color: #1a9a9a;
+}
+input{
+    border: 0px;
+    border-radius: 20%;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(67, 65, 65);
+    color: white;
+}
+.lang{
+    color: #1a9a9a;
+    padding-right: 20px;
+}
+.l{padding-right: 20px;
+    }
