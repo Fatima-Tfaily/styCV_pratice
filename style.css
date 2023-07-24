@@ -4,7 +4,7 @@ h3{
 .introduction{
     color: white;
     background-color: #2a3a68;
-    height: 230px;
+    height: fit-content;
     font-size: 20;
 }
 .contact{
@@ -12,30 +12,31 @@ h3{
     background-color: #032543;
 }
 img{
-width: 200px ;
-height: 200px;
+width: 150px ;
+height: 150px;
 float: right;
 display: flex;
 border-radius:50%;
 border:5px solid rgb(120,165,219);
+margin-right: 130px;
 }
 .contactus{
     display: flex;
     list-style-type: none;
 }
 li{ 
-    font-size: 20;
+    font-size: 15;
     padding-right: 65px;
 }
-td{
-    padding-right: 150px;
+.r{
+    padding-left: 200px;
 }
 u{
     color: #1a9a9a;
 }
 input{
     border: 0px;
-    border-radius: 20%;
+    border-radius: 30%;
     width: 100px;
     height: 30px;
     background-color: rgb(67, 65, 65);
@@ -45,8 +46,15 @@ input{
     color: #1a9a9a;
     padding-right: 20px;
 }
-.l{padding-right: 20px;
+li{padding-right: 150px;
     }
 a{
     color: white;
+}
+p{
+    font-size: 15;
+}
+header{
+    margin: -8px;
+    height: fit-content;
 }
